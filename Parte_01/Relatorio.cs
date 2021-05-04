@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Parte_01
 {
-    public class Relatorio
+    public class Relatorio : IRelatorio
     {
-        private readonly Catalogo _catalogo;
+        private readonly ICatalogo _catalogo;
 
-        public Relatorio(Catalogo catalogo)
+        public Relatorio(ICatalogo catalogo)
         {
             _catalogo = catalogo;
         }

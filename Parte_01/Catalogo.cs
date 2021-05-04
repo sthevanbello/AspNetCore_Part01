@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Parte_01
 {
-    public class Catalogo
+    public class Catalogo : ICatalogo
     {
         public List<Livro> Livros { get; set; }
 
